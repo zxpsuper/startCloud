@@ -1,0 +1,96 @@
+body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,form,fieldset,table,td,img,div,dl,dt,dd,input{margin:0;padding:0;}
+
+img{border:none;}
+body{padding-bottom:50px;}
+li{list-style:none;}
+input,select,textarea{outline:none;}
+textarea{resize:none;}
+a{text-decoration:none;}
+/*清除浮动*/
+.clearfix:after{content:"";display:block;clear:both;}
+.clearfix{zoom:1;}
+.slidenav{
+	display: none;
+	position: fixed;
+	left:0px;
+	width: 200px;
+	height: 100vh;
+	background-color: #f3f3f3;
+	z-index: 1000;
+}
+.slideul{	
+	line-height: 2.5em;
+	text-indent: 2px;
+	font-size: 12px;
+}
+.slideul li{
+	font-size: 18px;
+	position: relative;
+	border-top: 1px solid #ddd;
+	text-indent: 1.5em;
+	margin-right: 15px;
+	padding:5px 0;
+}
+.slideul li a{
+	color: #3c3c79;
+
+}
+.slideul li a:actived{
+	text-decoration: none;
+}
+.menudiv{
+	padding:10px 0;
+}
+.menudiv span{
+	font-size: 26px;
+}
+
+.ksy{
+	justify-content: center;
+}
+.grid{display:-webkit-flex;display: flex;}
+.menuicon span{
+	display: inline-block;
+	font-size: 30px;
+	color: #cccccc;
+	margin: 4px;
+}
+.topdiv{
+	border-top:2px solid #3eb249;
+	box-shadow:0 0 2px #ccc;
+	margin-bottom: 5px
+
+}
+.ksy img{
+	height: 40px;
+	text-align: center;
+	margin: 1px;
+}
+.div1{margin-top: 5px}
+.fixed-bottom{
+	position: fixed;
+	bottom: 0;
+}
+
+.fixed-bottom,.fixed-bottom ul{width: 100%!important}
+.grid .text-center{flex:1;}
+
+.list-group-items{
+	padding: 5px;
+	border-top:1px solid #ccc;
+	background:#fff;
+}
+.actived{background:#def0f3}
+.imgs{flex:1;height: 100px;}
+figcaption{flex:3;text-align: left;}
+table{vertical-align: middle;}
+.middle{line-height:100px;height:100px;margin-left: 5px}
+.spanmiddle{display: inline-block;vertical-align: middle;line-height:1.4em;}
+#industry{padding: 20px 0 20px 0}
+.tab-pane{line-height: 1.8em}
+.text-pane{line-height: 2em;padding:10px 0 10px 15px;text-indent: 2em}
+h3{padding: 20px}
+.form-group,.btn-group{padding-left: 20px;}
+.inputs{width: 60%;margin:100px auto;}
+label{color: #ffffff}
+input{margin-top: 20px;}

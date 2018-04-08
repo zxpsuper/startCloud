@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!--<meta http-equiv="Content-Language" content="zh-CN">-->
+    <title>SuperSlide - 导航效果</title>
+    <meta name="viewport" content="width=device-width,initial-scale=0.5,user-scalable=no">
+
+    <link type="text/css" rel="stylesheet" href="../css/demo.css" />
+    <link type="text/css" rel="stylesheet" href="../dist/jquery.mmenu.all.css" />
+    <link href="../css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="../css/home.css" rel="stylesheet" type="text/css">
+    <!--<link href="../css/jquery.mobile-1.4.5.css" rel="stylesheet" type="text/css">-->
+
+
+
+</head>
+
+<body data-spy="scroll">
+    <div class="big-web">
+        <ul class="aside-nav-left nav nav-pills nav-stacked visible-lg" id="aside-nav">
+            <li class="active"><a href="#instruction">十年风雨</a></li>
+            <li><a href="#production">产品分布</a></li>
+            <li><a href="#structure">设计格局</a></li>
+            <li><a href="#company">合作伙伴</a></li>
+            <li><a href="#accompany">一路有你</a></li>
+        </ul>
+
+        <ul class="aside-nav-right visible-lg">
+            <li class="text-center">
+                <a href="#" class="text-center">在<br/>线<br/>咨<br/>询<br/>&nbsp;</a>
+            </li>
+            <li class="text-center" id="li1">
+                <img src="../images/phonemsg2.png" class="aside-nav-right-img hide" id="img1">
+                <a href="#">热<br/>线<br/>电<br/>话<br/>&nbsp;
+                </a>
+            </li>
+            <li class="text-center" id="li2">
+                <img src="../images/weixincech.png" class="aside-nav-right-img hide" id="img2">
+                <a href="#">关<br/>注<br/>我<br/>们<br/>&nbsp;</a>
+            </li>
+        </ul>
+
+        <!--导航-->
+        <div class="nav-container clearfix">
+            <ul id="nav" class="navs pull-left">
+                <li class="nLi"><a class="logo" href="#"><img src="../images/yuntu.png" alt="" class="visible-lg"></a></li>
+                <li class="nLi">
+                    <a href="#" target="_blank">首页</a>
+                </li>
+                <li class="nLi">
+                    <a href="#" target="_blank">产品</a>
+                    <ul class="sub hidden-xs">
+                        <li><a href="#">企业文档管理系统</a></li>
+                        <li><a href="#">开始云文件盒子</a></li>
+                        <li><a href="#">文档管理中间件</a></li>
+                        <li><a href="#">开始云SaaS平台</a></li>
+                    </ul>
+                </li>
+                <li class="nLi">
+                    <a href="#" target="_blank">行业</a>
+                    <ul class="sub">
+                        <li><a href="#">制造行业</a></li>
+                        <li><a href="#">医药健康行业</a></li>
+                        <li><a href="#">规划设计行业</a></li>
+                        <li><a href="#">工程建筑行业</a></li>
+                        <li><a href="#">能源化工行业</a></li>
+                        <li><a href="#">运输及物流行业</a></li>
+                        <li><a href="#">教育行业</a></li>
+                        <li><a href="#">金融行业</a></li>
+                        <li><a href="#">政府机构行业</a></li>
+                        <li><a href="#">广告媒体行业</a></li>
+                        <li><a href="#">管理咨询行业</a></li>
+                        <li><a href="#">科技行业</a></li>
+                    </ul>
+                </li>
+                <li class="nLi ">
+                    <a href="#" target="_blank">案例</a>
+                    <ul class="sub">
+                        <li><a href="#">成功案例</a></li>
+                        <li><a href="#">典型案例</a></li>
+                    </ul>
+                </li>
+                <li class="nLi">
+                    <a href="http://www.SuperSlide2.com" target="_blank">渠道</a>
+                </li>
+                <li class="nLi">
+                    <a href="http://www.SuperSlide2.com" target="_blank">关于</a>
+                    <ul class="sub">
+                        <li><a href="#">公司介绍</a></li>
+                        <li><a href="#">联系我们</a></li>
+                        <li><a href="#">加入我们</a></li>
+                        <li><a href="#">海外招商</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="list-inline pull-left nav2 hidden-xs">
+                <li class="nLi"><span class="glyphicon glyphicon-earphone"></span><a>400-889-1088</a></li>
+                <li><a class="btn btn-default try">在线试用</a></li>
+                <li><a class="btn btn-primary download">免费下载</a></li>
+                <li class="nLi">English</li>
+            </ul>
+        </div>
+
+        <div style="height: 1px;width: 100%;background: #00b38a"></div>
+        <!--轮播图-->
+        <div id="carousel" class="carousel slide">
+            <ol class="carousel-indicators">
+                <li data-target="#carousel" data-slide-to="0"></li>
+                <li data-target="#carousel" data-slide-to="1"></li>
+                <li data-target="#carousel" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="item active">
+                    <a href="#"><img src="../images/carousel1.jpg" alt=""></a>
+                </div>
+                <div class="item">
+                    <a href="#"><img src="../images/carousel2.jpg" alt=""></a>
+                </div>
+                <div class="item">
+                    <a href="#"><img src="../images/carousel3.jpg" alt=""></a>
+                </div>
+            </div>
+            <a class="carousel-control left" href="#carousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+            </a>
+            <a class="carousel-control right" href="#carousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+            </a>
+        </div>
+
+        <div style="height: 1px;width: 100%;background: #00b38a"></div>
+
+        <!--图片介绍-->
+        <div class="instruction" id="instruction">
+            <img src="../images/instruction.png" alt="" style="max-width: 100%">
+        </div>
+
+        <!--产品分布-->
+        <div class="production hidden-xs" id="production">
+            <div class="production-text">
+                <div class="row">
+                    <h1 class="title">产品，才是真王道</h1>
+                </div>
+                <p class="center-block">开始云，成立于2006年，国内首家专业的企业内容管理云端解决方案提供商。一直以来，开始云始终秉承着“开启知识传承，始于文件管理”</p>
+
+                <p class="center-block">的核心产品理念，打造了开始智能云盘、KASS企业内容管理系统、KFS私有云存储系统、开始文件盒子等多个核心产品。</p>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-xs-6 col-sm-6 production-box">
+                        <div class="production-logo">
+                            <img src="../images/logo1.png">
+                        </div>
+                        <div class="production-text2">
+                            <h1>KASS</h1>
+
+                            <p class="text-left">KASS企业内容管理系统为企业提供最专业最全面的内容管理解决方案</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-xs-6 col-sm-6 production-box">
+                        <div class="production-logo">
+                            <img src="../images/logo2.png">
+                        </div>
+                        <div class="production-text2">
+                            <h1>KFS</h1>
+
+                            <p class="text-left">KFS私有云存储系统是具有EB级高性能的分布式私有云存储</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-xs-6 col-sm-6 production-box">
+                        <div class="production-logo">
+                            <img src="../images/logo3.png">
+                        </div>
+                        <div class="production-text2">
+                            <h1>SAAS</h1>
+
+                            <p class="text-left">KFS私有云存储系统是具有EB级高性能的分布式私有云存储</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-xs-6 col-sm-6 production-box">
+                        <div class="production-logo">
+                            <img src="../images/logo4.png">
+                        </div>
+                        <div class="production-text2">
+                            <h1 class="kass">KASS FILE BOX</h1>
+
+                            <p class="text-left">开始文件盒子为中小型企业提供最具性价比的文件管理神器</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--格局，引领未来-->
+        <div class="structure hidden-xs" id="structure">
+
+            <p class="text-center center-block title">格局，引领未来</p>
+
+            <p class="text-center center-block text">十年孜孜已倦，开始云着力全方位覆盖全行业</p>
+
+            <div>
+                <div class="structure-logo">
+                    <div class="row z1 rows">
+                        <div class="">
+                            <img src="../images/government.png">
+                        </div>
+                        <div class="">
+                            <img src="../images/finance.png">
+                        </div>
+                        <div class="">
+                            <img src="../images/chemical.png">
+                        </div>
+                        <div class="">
+                            <img src="../images/teach.png">
+                        </div>
+                    </div>
+                    <div class="row rows" id="z2">
+                        <div class="">
+                            <img src="../images/engineer.png">
+                        </div>
+                        <div class="">
+                            <img src="../images/hospital.png">
+                        </div>
+                        <div class="">
+                            <img src="../images/bus.png">
+                        </div>
+                        <div class="">
+                            <img src="../images/engineer.png">
+                        </div>
+                    </div>
+                    <div class="row z3 rows" id="z3">
+                        <div class="">
+                            <img src="../images/product.png">
+                        </div>
+                        <div class="">
+                            <img src="../images/design.png">
+                        </div>
+                        <div class="">
+                            <img src="../images/technology.png">
+                        </div>
+                        <div class="">
+                            <img src="../images/consult.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--匠心，让我们精益求精-->
+        <div class="company hidden-xs" id="company">
+            <p class="text-center">匠心，让我们精益求精</p>
+
+            <p class="text-center">十年不懈努力，开始云覆盖5万多家大中小企业、超3百万终端用户</p>
+
+            <div class="logo-row text-center">
+                <img src="../images/sac.png">
+                <img src="../images/hytera.png">
+                <img src="../images/westinghouse.png">
+                <img src="../images/xizi.png">
+                <img src="../images/ujoy.png">
+                <img src="../images/databox.png">
+            </div>
+            <div class="clearfix"></div>
+            <div class="logo-row text-center">
+                <img src="../images/chinaoil.png">
+                <img src="../images/haier.png">
+                <img src="../images/1smart.png">
+                <img src="../images/open.png">
+                <img src="../images/sctu.png">
+                <img src="../images/newrock.png">
+            </div>
+            <div class="btn-groups">
+                <div class="btn-group">
+                    <button class="btns active"></button>
+                    <button class="btns"></button>
+                </div>
+            </div>
+        </div>
+        <!--陪伴，是最长情的告白-->
+        <div class="accompany hidden-xs" id="accompany">
+            <p class="text-center">陪伴，是最长情的告白</p>
+
+            <p class="text-center">开始十年感恩有你，感谢你不离不弃，感谢你一路刻苦努力</p>
+
+            <div>
+                <div class="accompany-logo text-center">
+                    <div class="rows">
+                        <div class="">
+                            <img src="../images/fish.png">
+                        </div>
+                        <div class="">
+                            <img src="../images/whitecow.png">
+                        </div>
+                        <div class="">
+                            <img src="../images/redcow.png">
+                        </div>
+                        <div class="">
+                            <img src="../images/bug.png">
+                        </div>
+                        <div class="">
+                            <img src="../images/dragon.png">
+                        </div>
+                    </div>
+                    <div class="row rows">
+                        <div class="">
+                            <img src="../images/pig.png">
+                        </div>
+                        <div class="">
+                            <img src="../images/two.png">
+                        </div>
+                        <div class="">
+                            <img src="../images/threeeyes.png">
+                        </div>
+                        <div class="">
+                            <img src="../images/two.png">
+                        </div>
+                        <div class="">
+                            <img src="../images/aurelia.png">
+                        </div>
+                        <div class="">
+                            <img src="../images/branch.png">
+                        </div>
+                    </div>
+                    <div class="row rows">
+                        <div class="">
+                            <img src="../images/aurelia.png">
+                        </div>
+                        <div class="">
+                            <img src="../images/dragon.png">
+                        </div>
+                        <div class="">
+                            <img src="../images/bird.png">
+                        </div>
+                        <div class="">
+                            <img src="../images/pig.png">
+                        </div>
+                        <div class="">
+                            <img src="../images/lastphoto.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="page-foot">
+            <ul class="list-inline text-center">
+                <li>
+                    <img src="../images/icon1.png" class="pull-left">
+                    <div class="pull-left">7*24客服热线<br/>400-889-1088</div>
+                </li>
+                <li>
+                    <img src="../images/icon2.png" class="pull-left">
+                    <div class="pull-left">support@kass.com</div>
+                </li>
+                <li>
+                    <img src="../images/icon3.png" class="pull-left">
+                    <div class="pull-left">上海浦东软件园</div>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="page" class="visible-xs">
+        
+    </div>
+    <script type="text/javascript" src="../js/jquery-3.1.1.js"></script>
+    <script type="text/javascript" src="../js/bootstrap.js"></script>
+    <!--<script type="text/javascript" src="../js/jquery1.42.min.js"></script>-->
+    <!--<script type="text/javascript" src="../js/jquery.SuperSlide.2.1.1.js"></script>-->
+    <script src="../js/index.js"></script>
+</body>
+</html>
